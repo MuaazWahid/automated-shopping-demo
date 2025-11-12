@@ -57,7 +57,7 @@ public class HolidayShopping {
     private Actions actions;
     private double lowestExpectedPrice = 0.00;
     // these 2 fields are used throughout program and do not change
-    private final String localPath = "/Users/mw/Desktop/sfbu/2025spring/cs522/CS522_Selenium/src/week16/";
+    private final String localPath = "/Projects/cs522/CS522_Selenium/src/week16/";
     private final String screenshotPath = localPath + "screenshots/";
 
     // Helper method: Remove dollar sign and commas from price
@@ -85,7 +85,7 @@ public class HolidayShopping {
     void setup() {
         Configurator.initialize(new DefaultConfiguration());
         Configurator.setRootLevel(Level.INFO);
-        System.setProperty("webdriver.chrome.driver", "/Users/mw/Desktop/sfbu/2025spring/cs522/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Projects/cs522/chromedriver");
         driver = new ChromeDriver();
         actions = new Actions(driver);
         String ebayURL = "http://www.ebay.com/";
