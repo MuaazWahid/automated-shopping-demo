@@ -1,0 +1,7 @@
+<suite name="Holiday Shopping Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/mw/Desktop/sfbu/2025spring/cs522/CS522_Selenium/src/week16">
+        <classes>
+            <class name="week16.HolidayShopping"></class>
+        </classes>
+    </test>
+</suite>
